@@ -9,5 +9,3 @@
 <?php require_once('project_folders.php'); ?>
 
 <?php require_once('footer/main_footer.php');?>
-
-<?php require_once('footer/scripts_footer.php');?>

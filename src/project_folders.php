@@ -1,5 +1,4 @@
 
-<?php require_once('html_head.php'); ?>
 
 <!--=========== Start Grid   =============== -->
 
@@ -7,7 +6,7 @@
 
 
   <?php
-  for ($i = 0; $i < 8; $i++) {
+  for ($i = 0; $i < 16; $i++) {
   ?>
 
   <div class="column">
@@ -35,30 +34,52 @@
                 <div class="progress"></div>
             </div>
 
-<!-- ===== Content ===== -->
+<!-- ===== list of items ===== -->
             <div class="ui items">
 
-                <div class="item">
-                    <div class="header">
-                        <i class="calendar Outline icon"></i>
+<!-- ===== Last Updated ===== -->
 
-                    </div>
-                    <div class="middle aligned content">
-                        <div class="text">
-                            <p>Last updated: <b>10/09/10</b></p>
+              <div class="item">
+                  <div class="header">
+                      <i class="calendar Outline icon"></i>
+                  </div>
+
+                  <div class="middle aligned content">
+                      <div class="text">
+                          <p>Last updated: <b>10/09/10</b></p>
+                      </div>
+                  </div>
+              </div>
+
+
+  <!-- ===== Last Updated ===== -->
+
+                    <div class="item">
+                        <div class="header">
+                            <i class="calendar Outline icon"></i>
+                        </div>
+
+                        <div class="middle aligned content">
+                            <div class="text">
+                                <p>Last updated: <b>10/09/10</b></p>
+                            </div>
                         </div>
                     </div>
+              </div>
 
-                </div>
-            </div>
+<!-- ===== End of Items ===== -->
 
+
+
+
+</div>
 <!-- ===== End of contents ===== -->
 
 
 
 
 
-</div>
+
 
 
 
@@ -71,13 +92,9 @@
       </div>
 
 
-  </div>
+  </div><!-- end of colum -->
 
 
+  <?php } ?><!-- end of PHP Loop-->
 
-
-  <?php
-  }
-  ?>
-
-    </div>
+</div><!-- end of grid -->

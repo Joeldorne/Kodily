@@ -57,10 +57,7 @@
 
 
 
-                </div>
 
-
-                <div class="ui items">
 
                     <div class="item">
                         <div class="header">
