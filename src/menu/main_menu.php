@@ -5,8 +5,10 @@
       <div class="ui menu attached inverted ">
               <!-- Kodily Logo -->
               <?php require_once('menu/items/nav_logo.php'); ?>
+              <!-- Project List Dropdown -->
+              <?php require_once('menu/items/projects_list.php'); ?>
               <!-- Company Dropdown -->
-              <?php require_once('menu/items/company_dropdown.php'); ?>
+              <? /* php require_once('menu/items/company_dropdown.php');  */ ?>
           <!-- ====== Right Menu ====== -->
           <div class="right menu">
               <!--Notifications Dropdown (Right) -->

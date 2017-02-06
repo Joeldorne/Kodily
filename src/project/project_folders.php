@@ -85,9 +85,9 @@
 
 
 
-        <div class="ui bottom attached button">
+        <a class="ui bottom attached button" href="/dashboard.php">
           Open Project
-        </div>
+        </a>
 
       </div>
 
