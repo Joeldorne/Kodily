@@ -1,8 +1,7 @@
-<a class="ui dropdown item">
-    <div class="text">
+<div class="ui dropdown item">
 
         <i class="building icon large"></i> Company
-    </div>
+
     <i class="dropdown icon"></i>
     <div class="menu">
 
@@ -11,4 +10,4 @@
 
         <div class="ui bottom attached button"><i class="plus icon"></i>Add Company</div>
     </div>
-</a>
+</div>
