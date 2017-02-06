@@ -1,3 +1,4 @@
+<?php require_once __DIR__."/../config.php"; ?>
 
 
 <div class="ui one column grid">
@@ -32,7 +33,7 @@
 </div>
 </div>
 
-<?php require_once('footer/scripts_footer.php');?>
+<?php require_once SITE_ROOT .'/footer/scripts_footer.php';?>
 
 
 </body>

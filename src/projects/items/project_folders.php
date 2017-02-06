@@ -85,7 +85,7 @@
 
 
 
-        <a class="ui bottom attached button" href="dashboard.php">
+        <a class="ui bottom attached button" href="/projects/live_projects.php">
           Open Project
         </a>
 
@@ -98,6 +98,6 @@
   <?php } ?><!-- end of PHP Loop-->
 
 
-  <?php require_once('project/add_project.php');?>
+  <?php require_once SITE_ROOT .'/projects/items/add_project.php';?>
 
 </div><!-- end of grid -->

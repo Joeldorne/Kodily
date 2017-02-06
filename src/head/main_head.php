@@ -4,8 +4,13 @@
 <head>
     <title>Kodily - Developers on Demand</title>
 
-    <?php require_once('head/items/links.php'); ?>
-    <?php require_once('head/items/scripts.php'); ?>
+    <?php require_once __DIR__."/../config.php"; ?>
+
+
+
+
+    <?php require_once SITE_ROOT .'/head/items/links.php'; ?>
+    <?php require_once SITE_ROOT .'/head/items/scripts.php'; ?>
 
 
 

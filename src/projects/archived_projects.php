@@ -9,8 +9,8 @@
 
 <?php require_once SITE_ROOT .'/projects/items/archive_project_modal.php'; ?>
 
-<?php require_once SITE_ROOT .'/projects/items/project_header.php'; ?>
+<?php require_once SITE_ROOT .'/projects/items/archived_project_header.php'; ?>
 
-<?php require_once SITE_ROOT .'/projects/items/project_folders.php'; ?>
+
 
 <?php require_once SITE_ROOT .'/footer/main_footer.php';?>
