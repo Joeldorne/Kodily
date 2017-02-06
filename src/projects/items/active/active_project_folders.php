@@ -6,7 +6,7 @@
 
 
   <?php
-  for ($i = 0; $i < 15; $i++) {
+  for ($i = 0; $i < 2; $i++) {
   ?>
 
   <div class="column">
@@ -85,7 +85,7 @@
 
 
 
-        <button class="ui bottom attached button" onclick="window.location.href='/dashboard.php'">
+        <button class="ui bottom attached button" onclick="window.location.href='/dashboard/main_dashboard.php'">
           Open Project
         </btton>
 
@@ -98,6 +98,6 @@
   <?php } ?><!-- end of PHP Loop-->
 
 
-  <?php require_once SITE_ROOT .'/projects/items/add_project.php';?>
+  <?php require_once SITE_ROOT .'/projects/items/active/add_project.php';?>
 
 </div><!-- end of grid -->

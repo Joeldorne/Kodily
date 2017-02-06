@@ -13,7 +13,6 @@
 
 <?php require_once SITE_ROOT .'/projects/items/archived/archived_project_folders.php'; ?>
 
-<
 
 
 <?php require_once SITE_ROOT .'/footer/main_footer.php';?>
