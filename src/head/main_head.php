@@ -8,7 +8,7 @@
 
 
 
-
+    <?php require_once SITE_ROOT .'/head/items/meta.php'; ?>
     <?php require_once SITE_ROOT .'/head/items/links.php'; ?>
     <?php require_once SITE_ROOT .'/head/items/scripts.php'; ?>
 

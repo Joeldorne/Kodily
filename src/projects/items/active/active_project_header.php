@@ -7,16 +7,16 @@
     <div class="column">
       <div class="ui items">
           <div class="item">
-              <h1 class="header">Projects</h1>
+              <h1 class="header">Active Projects</h1>
               <div class="middle aligned content">
                   <div class="ui buttons right floated">
-                      <button class="ui button active" onclick="window.location.href='/projects/live_projects.php'">
+                      <button class="ui button active" onclick="window.location.href='/projects/main_active_projects.php'">
                         <i class="lightning icon"></i>
                           Active
                         <a class="ui green circular label">1</a>
                       </button>
 
-                      <button class="ui button" onclick="window.location.href='/projects/archived_projects.php'">
+                      <button class="ui button" onclick="window.location.href='/projects/main_archived_projects.php'">
 
                           <i class="archive icon"></i>
 
