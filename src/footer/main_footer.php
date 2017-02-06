@@ -1,6 +1,8 @@
 
 
-
+<div class="ui one column grid">
+  <div class="row">
+    <div class="column">
 <div class="ui inverted attached stackable menu bottom">
     <div class="ui container">
       <a class="item">
@@ -25,6 +27,9 @@
         <div class="ui input"><input type="text" placeholder="Search..."></div>
       </div>
     </div>
+</div>
+</div>
+</div>
 </div>
 
 <?php require_once('footer/scripts_footer.php');?>

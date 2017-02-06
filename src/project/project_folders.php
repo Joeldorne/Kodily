@@ -6,7 +6,7 @@
 
 
   <?php
-  for ($i = 0; $i < 16; $i++) {
+  for ($i = 0; $i < 15; $i++) {
   ?>
 
   <div class="column">
@@ -96,5 +96,8 @@
 
 
   <?php } ?><!-- end of PHP Loop-->
+
+
+  <?php require_once('project/add_project.php');?>
 
 </div><!-- end of grid -->
