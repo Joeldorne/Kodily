@@ -1,65 +1,78 @@
-
 <div class="ui one column grid">
   <div class="row">
     <div class="column">
-      <div class="ui menu inverted attached">
-<!-- logo -->
-        <div class="item">
-          <div class="header">
-            <i class="terminal icon big"></i>
-          </div>
 
-          <div class="middle aligned content">
+<div class="ui menu attached inverted ">
+  <!-- logo -->
+          <div class="item">
             <div class="header">
-              <h1>Kodily</h1>
+              <i class="terminal icon big"></i>
+            </div>
+
+            <div class="middle aligned content">
+              <div class="header">
+                <h1>Kodily</h1>
+              </div>
             </div>
           </div>
-        </div>
 
-  <!-- logo end -->
+    <!-- logo end -->
+  <a class="item">
+    Change Team
+  </a>
+  <div class="right menu">
 
+<!--Dropdown -->
 
-<div class="putafloatedrighthere">
-<!-- Red Note number -->
-<div class="item">
-  <a class="ui red circular label">21</a>
-</div>
+    <div class="ui dropdown item">
 
-<!-- Note Dropdown-->
-<a class="ui dropdown item">
-    <div class="text">
-      <i class="alarm outline icon large"></i> Notifcations
-    </div>
-    <div class="menu">
-      <div class="item">Update</div>
-        <div class="item">Update</div>
-        <div class="item">See More</div>
-    </div>
-</a>
-<!-- Profile dropdown-->
-
-        <a class="ui dropdown item">
-            <div class="text">
-                <img class="ui avatar image" src="http://semantic-ui.com/images/avatar/small/jenny.jpg"> Joel Dorne
-            </div>
-            <i class="dropdown icon"></i>
-            <div class="menu">
-
-                <div class="item"><i class="ticket icon"></i>Teams</div>
-                <div class="item"><i class="ticket icon"></i>Profile</div>
-                <div class="item"><i class="ticket icon"></i>Settings</div>
-                <div class="item"><i class="ticket icon"></i>Logout</div>
-            </div>
-        </a>
-
-
-
-
-
-    </div>
-
-
+      <I class="ui red circular label">21</I>
+      <i class="alarm outline icon large"></i>
+      Notifications <i class="dropdown icon"></i>
+      <div class="menu">
+        <a class="item">Update 1</a>
+        <a class="item">update 2</a>
+        <a class="item">Update 3</a>
+        <div class="ui attached button"><i class="alarm icon"></i>See all</div>
       </div>
     </div>
+
+<!-- Dropdown end -->
+
+
+
+
+
+
+    <div class="ui dropdown item">
+
+            <img class="ui avatar image" src="http://semantic-ui.com/images/avatar/small/jenny.jpg"> Joel Dorne
+
+        <i class="dropdown icon"></i>
+
+        <div class="menu">
+
+            <div class="item"><i class="ticket icon"></i>Teams</div>
+            <div class="item"><i class="ticket icon"></i>Profile</div>
+            <div class="item"><i class="ticket icon"></i>Settings</div>
+            <div class="item"><i class="ticket icon"></i>Logout</div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
   </div>
-  </div>
+</div>
+
+
+</div>
+</div>
+</div>
