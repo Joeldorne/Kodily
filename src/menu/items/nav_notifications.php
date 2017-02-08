@@ -7,119 +7,70 @@
     Notifications
     <i class="dropdown icon"></i>
 
-      <div class="menu divided">
+      <div class="menu">
+
+        <?php
+        for ($i = 0; $i < 5; $i++) {
+?>
 
 
-        <div class="ui feed item ">
-          <div class="event">
-            <div class="label">
-              <img src="http://semantic-ui.com/images/avatar2/small/matthew.png">
-            </div>
-            <div class="content">
-              <div class="summary">
-                <a class="user">
-                  Elliot Fu
-                </a> added you as a friend
-                <div class="date">
-                  1 Hour Ago
-                </div>
-              </div>
-              <div class="meta">
-                <a class="like">
-                  <i class="like icon"></i> 4 Likes
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="event">
-            <div class="label">
-              <img src="http://semantic-ui.com/images/avatar2/small/matthew.png">
-            </div>
-            <div class="content">
-              <div class="summary">
-                <a>Helen Troy</a> added <a>2 new illustrations</a>
-                <div class="date">
-                  4 days ago
-                </div>
-              </div>
 
-              <div class="meta">
-                <a class="like">
-                  <i class="like icon"></i> 1 Like
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="event">
-            <div class="label">
-              <img src="http://semantic-ui.com/images/avatar2/small/matthew.png">
-            </div>
-            <div class="content">
-              <div class="summary">
-                <a class="user">
-                  Jenny Hess
-                </a> added you as a friend
-                <div class="date">
-                  2 Days Ago
-                </div>
-              </div>
-              <div class="meta">
-                <a class="like">
-                  <i class="like icon"></i> 8 Likes
-                </a>
-              </div>
-            </div>
-          </div>
-        
-          <div class="event">
-            <div class="label">
-              <img src="http://semantic-ui.com/images/avatar2/small/matthew.png">
-            </div>
-            <div class="content">
-              <div class="summary">
-                <a>Justen Kitsune</a> added <a>2 new photos</a> of you
-                <div class="date">
-                  4 days ago
-                </div>
-              </div>
 
-              <div class="meta">
-                <a class="like">
-                  <i class="like icon"></i> 41 Likes
-                </a>
-              </div>
-            </div>
-          </div>
+<div class="ui feed item large">
+
+
+
+
+
+
+
+
+
+
+  <div class="event middle aligned">
+      <div class="label">
+        <img src="http://semantic-ui.com/images/avatar2/small/matthew.png">
+      </div>
+      <div class="content">
+        <div class="summary">
+          <a class="user">
+            Joel Dorne
+            <a class="date">
+              <i class="comment icon"></i>1 Hour Ago
+            </a>
+
+
         </div>
+        <div class="meta">
+  </a> I think it would a really good idea to use the same way we did before...
+        </div>
+      </div>
+  </div>
+</div>
+<div class="ui divider"></div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="ui attached button"><i class="alarm icon"></i>See all</div>
-
-
-
+  <?php } ?><!-- end of PHP Loop-->
+    <div class="ui attached button"><i class="alarm icon"></i>See all</div>
 </div>
 
-</div>
+
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
