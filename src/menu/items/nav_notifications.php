@@ -2,21 +2,40 @@
 
 
 <div class="ui dropdown item top right pointing">
-    <i class="ui red circular label">21</i>
+
+
+
+ <span class="content">
     <i class="alarm outline icon large"></i>
-    Notifications
-    <i class="dropdown icon"></i>
+
+    <div class="ui red circular label">21</div>
+    </span>
+
+
+
+    <!--Notifications -->
+
 
       <div class="menu">
 
+        <div class="header">
+          <i class="alarm icon large"></i>
+          Notifications
+        </div>
+
+
+
+
+        <div class="scrolling menu">
+
         <?php
-        for ($i = 0; $i < 5; $i++) {
+        for ($i = 0; $i < 8; $i++) {
 ?>
 
 
 
 
-<div class="ui feed item large">
+<div class="ui feed item">
 
 
 
@@ -36,7 +55,7 @@
           <a class="user">
             Joel Dorne
             <a class="date">
-              <i class="comment icon"></i>1 Hour Ago
+              <i class="comment icon floated right"></i>1 Hour Ago
             </a>
 
 
@@ -48,10 +67,11 @@
   </div>
 </div>
 <div class="ui divider"></div>
-
-
   <?php } ?><!-- end of PHP Loop-->
-    <div class="ui attached button"><i class="alarm icon"></i>See all</div>
+</div>
+
+<a class="ui attached button" href="/notifications/main_notifications.php">See All</a>
+
 </div>
 
 
@@ -61,7 +81,7 @@
 
       </div>
 
-
+<!-- <div class="ui attached button"><i class="alarm icon"></i>See all</div> -->
 
 
 
