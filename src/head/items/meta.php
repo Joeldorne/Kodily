@@ -1,4 +1,31 @@
 <meta charset='UTF-8'>
+
+
+
+
+<!-- Opera Speed Dial Favicon -->
+  <link rel="icon" type="image/png" href="http://www.karenkislin.com/wp-content/uploads/2015/08/cropped-k-favicon-black.png" />
+
+<!-- Standard Favicon -->
+  <link rel="icon" type="image/x-icon" href="http://www.karenkislin.com/wp-content/uploads/2015/08/cropped-k-favicon-black.png" />
+
+<!-- For iPhone 4 Retina display: -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://www.karenkislin.com/wp-content/uploads/2015/08/cropped-k-favicon-black.png">
+
+<!-- For iPad: -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://www.karenkislin.com/wp-content/uploads/2015/08/cropped-k-favicon-black.png">
+
+<!-- For iPhone: -->
+  <link rel="apple-touch-icon-precomposed" href="http://www.karenkislin.com/wp-content/uploads/2015/08/cropped-k-favicon-black.png">
+
+
+
+
+
+
+
+
+
 <meta name='keywords' content='your, tags'>
 <meta name='description' content='150 words'>
 <meta name='subject' content='your website's subject'>
