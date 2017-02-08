@@ -10,7 +10,7 @@
               <!-- Kodily Logo -->
               <?php require_once SITE_ROOT .'/menu/items/nav_logo.php'; ?>
               <!-- Project List Dropdown -->
-              <?php require_once SITE_ROOT .'/menu/items/projects_list.php'; ?>
+              <?php require_once SITE_ROOT .'/menu/items/projects_back.php'; ?>
               <!-- Company Dropdown -->
               <? /* php require_once('menu/items/company_dropdown.php');  */ ?>
           <!-- ====== Right Menu ====== -->
