@@ -19,7 +19,7 @@
                 Test Project
 <!-- ===== Archive Project ===== -->
                 <div class="ui inline right floated">
-                  <button class="ui icon button basic" id="target">
+                  <button class="ui icon button basic" id="archive_project_trigger">
                     <i class="archive icon"></i>
                   </button>
                 </div>

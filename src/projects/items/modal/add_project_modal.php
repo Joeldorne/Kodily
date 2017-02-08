@@ -1,25 +1,25 @@
 
-
-
-
-
-
-    <!-- ===== Archive Model ===== -->
-    <div class="ui basic modal">
-        <div class="ui icon header">
-            <i class="archive icon"></i> Archive Old Project
-        </div>
-        <div class="content">
-            <p>Would you like to archive this project? </p>
-        </div>
-        <div class="actions">
-            <div class="ui red basic cancel inverted button">
-                <i class="remove icon"></i> No
-            </div>
-            <div class="ui green ok inverted button">
-                <i class="checkmark icon"></i> Yes
-            </div>
-        </div>
+<div class="ui standard modal" id="add_project_modal">
+    <div class="header">
+      Create a project
     </div>
-
-    <!-- ===== END Archive Model ===== -->
+    <div class="image content">
+      <div class="ui medium image">
+        <img src="/images/avatar2/large/rachel.png">
+      </div>
+      <div class="description">
+        <div class="ui header">Default Profile Image</div>
+        <p>We've found the following <a href="https://www.gravatar.com" target="_blank">gravatar</a> image associated with your e-mail address.</p>
+        <p>Is it okay to use this photo?</p>
+      </div>
+    </div>
+    <div class="actions">
+      <div class="ui black deny button">
+        Nope
+      </div>
+      <div class="ui positive right labeled icon button">
+        Yep, that's me
+        <i class="checkmark icon"></i>
+      </div>
+    </div>
+  </div>

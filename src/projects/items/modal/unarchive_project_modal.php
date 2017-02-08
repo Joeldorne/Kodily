@@ -1,7 +1,7 @@
 
-<div class="ui standard modal" id="archive_project_modal">
+<div class="ui standard modal" id="unarchive_project_modal">
     <div class="header">
-      Archive this project
+      Unarchive this project?
     </div>
     <div class="image content">
       <div class="ui medium image">
