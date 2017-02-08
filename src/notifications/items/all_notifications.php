@@ -6,8 +6,12 @@
     <div class="column">
 
 
+    <div class="ui menu">
+<div class="ui item">
+
       <div class="ui feed">
-        <div class="event">
+
+        <div class="event" href="http://www.google.com">
           <div class="label">
             <img src="http://semantic-ui.com/images/avatar2/small/matthew.png">
           </div>
@@ -23,10 +27,11 @@
             <div class="meta">
               <a class="like">
                 <i class="like icon"></i> 4 Likes
-              </a>
+              </div>
             </div>
           </div>
-        </div>
+
+      </a>
         <div class="ui divider"></div>
         <div class="event">
           <div class="label">
@@ -102,7 +107,7 @@
                 4 days ago
               </div>
             </div>
-            
+
             <div class="meta">
               <a class="like">
                 <i class="like icon"></i> 41 Likes
@@ -120,6 +125,8 @@
 
 
   </div>
+</div>
+</div>
 </div>
 </div>
 

@@ -6,9 +6,9 @@
 
     <div class="menu">
 
-        <div class="item"><i class="ticket icon"></i>Teams</div>
-        <div class="item"><i class="ticket icon"></i>Profile</div>
-        <div class="item"><i class="ticket icon"></i>Settings</div>
-        <div class="item"><i class="ticket icon"></i>Logout</div>
+        <div class="item"><i class="users icon"></i>Team</div>
+        <div class="item"><i class="user icon"></i>Profile</div>
+        <div class="item"><i class="setting icon"></i>Settings</div>
+        <div class="item"><i class="sign out icon"></i>Logout</div>
     </div>
 </div>
